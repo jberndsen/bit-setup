@@ -42,3 +42,6 @@ ISSUE: this yields the following error message, indicating that Jest does not un
                                                                                              ^
 
     SyntaxError: Unexpected token .
+
+7. bit tag --all 0.0.1 --force
+8. bit export COLLECTION_NAME
