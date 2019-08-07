@@ -9,10 +9,7 @@ steps to reproduce:
 
 1. npm install
 2. bit init
-3. bit add src/components/\* --tests src/components/{PARENT}.spec.tsx
-
-ISSUE: this does not recognize the spec file as a test file. This can be observed in the .bitmap file. As a workaround I manually update the .bitmap file to indicate the spec file as a test file.
-
+3. bit add src/components/* --tests src/components/**/*.spec.tsx
 4. bit import bit.envs/compilers/react-typescript --compiler
 5. bit import bit.envs/testers/jest --tester
 6. bit test
