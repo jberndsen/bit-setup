@@ -1,5 +1,6 @@
 #Installed and generated files
 node_modules/
+.bit/
 lib/dist
 
 #OS and editor files

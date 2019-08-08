@@ -7,8 +7,4 @@ describe('HelloWorld', () => {
     const component = shallow(<HelloWorld />);
     expect(component).toMatchSnapshot();
   });
-  it('renders fo real', () => {
-    const component = shallow(<HelloWorld />);
-    expect(component).toMatchSnapshot();
-  });
 });
